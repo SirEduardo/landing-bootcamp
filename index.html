@@ -4,10 +4,214 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6465fb4fe5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Landing Page</title>
   </head>
   <body>
-
+    <header>
+      <div class="categories">
+        <img
+          src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg"
+          alt="pc-components"
+        />
+        <button>
+          <i class="fa-solid fa-bars"></i>
+          <span>Todas las categorías</span>
+        </button>
+      </div>
+      <form>
+        <select name="catalog" id="catalog">
+          <option>Todo el catálogo</option>
+          <option>Reacondicionado</option>
+        </select>
+        <input type="text" placeholder="Buscar" />
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </form>
+      <div class="account">
+        <div class="my-account">
+          <i class="fa-solid fa-user"></i>
+          <a href="#">Mi Cuenta</a>
+        </div>
+        <div class="my-shop">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button>Mi cesta</button>
+        </div>
+      </div>
+    </header>
+    <nav class="navigate">
+      <ul>
+        <li><a href="#">Lanzamientos y novedades</a></li>
+        <li><a href="#">Regalos Comuniones</a></li>
+        <li><a href="#">Ventilacion y Aire Acondicionado</a></li>
+        <li><a href="#">Descuentos Logitech</a></li>
+        <div class="oferts">
+          <a href="#">Ofertas TOP</a>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <span><b>Expertos en tecnología</b> con un servicio 5 estrellas</span>
+      <section>
+        <div class="section-grid-container-1">
+          <img
+            src="https://img.pccomponentes.com/pcblog/1714687200000/500x320.png"
+            alt="ofertas"
+          />
+          <img
+            src="https://img.pccomponentes.com/pcblog/1714687200000/home-500x320.png"
+            alt="logi-play"
+          />
+          <img
+            src="https://img.pccomponentes.com/pcblog/1714687200000/500x320-2.png"
+            alt="aire"
+          />
+        </div>
+        <div class="section-grid-container-2">
+          <img
+            src="https://img.pccomponentes.com/pcblog/1714687200000/768x180.png"
+            alt="regalos"
+          />
+          <img
+            src="https://img.pccomponentes.com/pcblog/1714687200000/768x180-1.png"
+            alt="novedades"
+          />
+        </div>
+      </section>
+      <section class="week-oferts">
+        <h2>Ofertas destacadas de la semana</h2>
+        <ul>
+          <li>
+            <img
+              src="https://thumb.pccomponentes.com/w-150-150/articles/1081/10818660/1458-asus-dual-geforce-rtx-4060-evo-oc-edition-8gb-gddr6-dlss3.jpg"
+            /><a
+              rel="noopener"
+              href="https://www.pccomponentes.com/asus-dual-geforce-rtx-4060-evo-oc-edition-8gb-gddr6-dlss3"
+              >ASUS Dual GeForce RTX 4060 EVO OC Edition 8GB GDDR6 DLSS3</a
+            >
+            <strong>364,34€</strong>
+            <p>Envío gratis</p>
+            <span>Recibelo mañana</span>
+          </li>
+          <li>
+            <img
+              src="https://thumb.pccomponentes.com/w-150-150/articles/1079/10797787/165-lenovo-ideapad-1-15amn7-amd-ryzen-5-7520u-16gb-512gb-ssd-156.jpg"
+            /><a
+              rel="noopener"
+              href="https://www.pccomponentes.com/lenovo-ideapad-1-15amn7-amd-ryzen-5-7520u-16gb-512gb-ssd-156"
+              >Lenovo IdeaPad 1 15AMN7 AMD Ryzen 5 7520U/16GB/512GB SSD/15.6"</a
+            >
+            <strong>399€</strong>
+            <p>Envío gratis</p>
+            <span>Recíbelo mañana</span>
+          </li>
+          <li>
+            <img
+              src="https://thumb.pccomponentes.com/w-150-150/articles/1067/10673828/1839-samsung-galaxy-a34-5g-8-256gb-negro-libre-protector-pantalla.jpg"
+            /><a
+              rel="noopener"
+              href="https://www.pccomponentes.com/samsung-galaxy-a34-5g-8-256gb-negro-libre-protector-pantalla"
+              >Samsung Galaxy A34 5G 8/256GB Negro Libre + Protector Pantalla</a
+            >
+            <strong>329€</strong>
+            <p>Envío gratis</p>
+            <span>Recíbelo mañana</span>
+          </li>
+          <li>
+            <img
+              src="https://thumb.pccomponentes.com/w-150-150/articles/1057/10571139/1870-lenovo-tab-m10-plus-106-3-32gb-gris.jpg"
+            /><a
+              rel="noopener"
+              href="https://www.pccomponentes.com/lenovo-tab-m10-plus-106-3-32gb-gris"
+              >Lenovo Tab M10 Plus 10.6" 3/32GB Gris
+            </a>
+            <strong>134€</strong>
+            <p>Envío gratis</p>
+            <span>Recíbelo mañana</span>
+          </li>
+          <li>
+            <img
+              src="https://thumb.pccomponentes.com/w-150-150/articles/1078/10789829/1582-pccom-ready-amd-ryzen-5-5600x-16gb-1tb-ssd-rtx-4060-comprar.jpg"
+            /><a
+              rel="noopener"
+              href="https://www.pccomponentes.com/pccom-ready-amd-ryzen-5-5600x-16gb-1tb-ssd-rtx-4060"
+              >PcCom Ready AMD Ryzen 5 5600X / 16GB / 1TB SSD / RTX 4060</a
+            >
+            <strong>979€</strong>
+            <p>Envío gratis</p>
+            <span>Recíbelo mañana</span>
+          </li>
+          <li>
+            <img
+              src="https://thumb.pccomponentes.com/w-150-150/articles/1026/10269973/1598-msi-g2722-27-led-ips-fullhd-170hz-freesync-premium.jpg"
+            /><a
+              rel="noopener"
+              href="https://www.pccomponentes.com/msi-g2722-27-ips-fullhd-170hz-freesync-premium"
+              >MSI G2722 27" IPS FullHD 170Hz FreeSync</a
+            >
+            <strong>165€</strong>
+            <p>Envío gratis</p>
+            <span>Recíbelo mañana</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <nav>
+          <h4>Por qué comprar</h4>
+          <ul>
+            <li><a href="#">Cómo comprar</a></li>
+            <li><a href="#">Formas de pago</a></li>
+            <li><a href="#">Gastos de envío</a></li>
+            <li><a href="#">Cupones de descuento</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Opiniones de clientes</a></li>
+            <li><a href="#">Tarjetas regalo</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <h4>Quiénes somos</h4>
+          <ul>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Compromisos</a></li>
+            <li><a href="#">Nuestras tiendas</a></li>
+            <li><a href="#">Nuestras Marcas</a></li>
+            <li><a href="#">Condiciones de compra</a></li>
+            <li><a href="#">Afiliados</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Privacidad</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <h4>Contactar</h4>
+          <ul>
+            <li><a href="#">Centro de soporte</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Canal ético</a></li>
+            <li><a href="#">Devoluciones y garantías</a></li>
+            <li><a href="#">Wiki PcComponentes</a></li>
+            <li><a href="#">Opina y Gana</a></li>
+            <li><a href="#">Publicidad</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+            <li><a href="#">Plítica de cookies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
-
